@@ -1,0 +1,100 @@
+
+$bgcolor: lightblue;
+$textcolor: black;
+$fontsize: 18px;
+
+
+
+$myFont: Helvetica, sans-serif;
+$myColor: black;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+
+/*
+font: {
+  family: Helvetica, sans-serif;
+  size: 18px;
+  weight: bold;
+}
+
+text: {
+  align: center;
+  transform: lowercase;
+  overflow: hidden;
+}
+*/
+
+
+
+
+body {
+
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+
+  background-color: $bgcolor;
+}
+
+#container {
+  width: $myWidth;
+}
+
+
+/*
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+
+/*
+//define variables for the primary colors 
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+
+//use the variables
+.main-header {
+  background-color: $primary_1;
+}
+
+.menu-left {
+  background-color: $primary_2;
+}
+
+.menu-right {
+  background-color: $primary_3;
+} 
+*/
+
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+
+
+
+.current {
+    color: green;
+  }
+
+
+  /*
+  https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/
+  */

@@ -3,7 +3,7 @@
 #title: About
 #permalink: /about/
 
-layout: home
+layout: default
 
 ---
 
