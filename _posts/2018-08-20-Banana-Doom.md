@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Jack & Jill 
+tags: Banana Fruit Doom
 ---
 
 A banana is an edible fruit – botanically a berry – produced by several
