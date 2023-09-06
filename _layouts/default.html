@@ -19,6 +19,10 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        {% include navigation.html %}
+        <!--{{ content }}-->
+
+        <!--
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -26,9 +30,12 @@
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        -->
+        
       </div>
     </header>
-
+    
+    <!--
     <ul>
       {% for post in site.posts %}
         <li>
@@ -36,12 +43,14 @@
         </li>
       {% endfor %}
     </ul>
-    
+    -->
 
+    
     <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
     </div>
+    
   </body>
 </html>

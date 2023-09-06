@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Jack & Jill 
+author: jill & ted
 tags: Banana Fruit Doom
 ---
 
