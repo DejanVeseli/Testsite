@@ -10,6 +10,18 @@
 {% seo %}
   </head>
 
+  <style>
+    #footer {
+        position: fixed;
+        padding: 15px 15px 0px 15px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/
+        height: 40px;
+        background: grey;
+    }
+</style>
+
   <body>
 
     <header>
@@ -51,6 +63,17 @@
         {{ content }}
       </section>
     </div>
-    
+
+     <!--
+    <div  id="footer">
+        <section id="downloads">
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+          {% endif %}
+          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+       </div>>
+      -->
   </body>
 </html>

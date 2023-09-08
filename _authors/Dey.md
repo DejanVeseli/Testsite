@@ -1,6 +1,6 @@
 ---
 short_name: dey
-name: Dey Low
+name: Dey Law
 position: Intern
 ---
 Intern at voxxer 
