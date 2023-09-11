@@ -11,14 +11,21 @@
   </head>
 
   <style>
+      div {
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+
     #footer {
         position: fixed;
-        padding: 15px 15px 0px 15px;
+        padding: 15px 15px 15px 15px;
         bottom: 0;
         width: 100%;
         /* Height of the footer*/
         height: 40px;
-        background: grey;
+        background: rgb(88, 86, 86);
     }
 </style>
 
@@ -63,8 +70,11 @@
         {{ content }}
       </section>
     </div>
+    
 
-     <!--
+    <h1>&nbsp;</h1> 
+    <h1>&nbsp;</h1> 
+
     <div  id="footer">
         <section id="downloads">
           {% if site.show_downloads %}
@@ -73,7 +83,7 @@
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
-       </div>>
-      -->
+       </div>
+    
   </body>
 </html>
